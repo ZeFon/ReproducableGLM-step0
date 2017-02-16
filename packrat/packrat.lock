@@ -3,6 +3,16 @@ PackratVersion: 0.4.8.1
 RVersion: 3.3.2
 Repos: CRAN=https://cran.rstudio.com/
 
+Package: BH
+Source: CRAN
+Version: 1.62.0-1
+Hash: 14dfb3e8ffe20996118306ff4de1fab2
+
+Package: DBI
+Source: CRAN
+Version: 0.5-1
+Hash: 375869004db963f9915f2b8a49b4a718
+
 Package: MatrixModels
 Source: CRAN
 Version: 0.4-1
@@ -14,10 +24,22 @@ Version: 1.1.0
 Hash: 26a75216d50f787ebb12bc3552762837
 Requires: Rcpp
 
+Package: PASWR
+Source: CRAN
+Version: 1.1
+Hash: 612b8f379a4b1147c86380d8cf316a1b
+Requires: e1071
+
 Package: RColorBrewer
 Source: CRAN
 Version: 1.1-2
 Hash: c0d56cd15034f395874c870141870c25
+
+Package: RSQLite
+Source: CRAN
+Version: 1.1-2
+Hash: 124177a480ba0335eb30ed3878971bf8
+Requires: BH, DBI, Rcpp, memoise, plogr
 
 Package: Rcpp
 Source: CRAN
@@ -67,6 +89,11 @@ Source: CRAN
 Version: 0.6.12
 Hash: e53fb8c58673df868183697e39a6a4d6
 
+Package: e1071
+Source: CRAN
+Version: 1.6-8
+Hash: 20320ec66d4dc608654769145b7c624a
+
 Package: foreach
 Source: CRAN
 Version: 1.4.3
@@ -110,6 +137,12 @@ Source: CRAN
 Version: 1.5
 Hash: bdc4d48c3135e8f3b399536ddf160df4
 
+Package: memoise
+Source: CRAN
+Version: 1.0.0
+Hash: 56e7087c3559eb7ba72a9afb349bf896
+Requires: digest
+
 Package: minqa
 Source: CRAN
 Version: 1.2.4
@@ -137,6 +170,11 @@ Source: CRAN
 Version: 0.4-6
 Hash: 8117c37e2e3078e3c6465134bac6956e
 Requires: lme4
+
+Package: plogr
+Source: CRAN
+Version: 0.1-1
+Hash: fb19215402e2d9f1c7f803dcaa806fc2
 
 Package: plyr
 Source: CRAN
